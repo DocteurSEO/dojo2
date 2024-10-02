@@ -1,0 +1,44 @@
+# AWS EC2 Quiz Challenge
+
+This repository contains a quiz application that you'll run on an AWS EC2 instance. Follow the instructions below to set up the environment, run the quiz, and clean up your resources.
+
+## Instructions
+
+### 1. Launch an EC2 Instance
+
+1. Log in to your AWS Management Console.
+2. Navigate to the EC2 dashboard.
+3. Click "Launch Instance".
+4. Choose an Amazon Linux 2 AMI.
+5. Select a t2.micro instance type (free tier eligible).
+6. Configure instance details as needed.
+7. Add storage (default is usually fine).
+8. Add tags if desired.
+9. Configure security group:
+   - Allow SSH (port 22) from your IP.
+   - Allow HTTP (port 80) from anywhere.
+10. Review and launch the instance.
+11. Create or select an existing key pair and launch the instance.
+
+### 2. Answer the Quiz
+
+- Complete the quiz questions presented in your web browser.
+- Submit your answers when finished.
+
+### 6. Terminate the EC2 Instance
+
+After completing the quiz:
+
+1. Return to the AWS Management Console.
+2. Go to the EC2 dashboard.
+3. Select your instance.
+4. Click "Instance State" > "Terminate Instance".
+5. Confirm the termination.
+
+## Important Notes
+
+- Remember to always terminate your EC2 instance when you're done to avoid unnecessary charges.
+- Make sure to remove any sensitive information (like access keys) before pushing code to this repository.
+- This setup is for educational purposes and may not be suitable for production environments without further security measures.
+
+Good luck with the quiz!
