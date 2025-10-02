@@ -317,7 +317,7 @@ input[type="text"], input[type="email"], textarea {
             .then(response => {
                 if (response.message === "Contenu généré avec succès") {
                     const slug = response.slug;
-                    url = `https://oneclickpublish.com/content/docteurseo.com/${slug}`;
+                    url = `https://oneclickpublish.docteurseoo.workers.dev/content/docteurseo.com/${slug}`;
 
                     return fetch('https://n8n.gogokodo.com/webhook/9ac861f6-e30d-4397-ac71-c68553105914', {
                         method: 'POST',
